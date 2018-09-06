@@ -8,11 +8,14 @@
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5"
   },
+  "homepage": "https://shultztom.github.io/dinosaur-fact-react",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "serveProd": "serve -s build"
+    "serveProd": "serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
