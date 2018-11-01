@@ -13,6 +13,10 @@ class App extends Component {
   }
 
   fetchData = () => {
+    this.setState({
+      name: "Loading...",
+      description: ""
+    });
     axios
       .get("https://dinosaur-facts-api.herokuapp.com/dinosaurs/random")
       .then(response => {
