@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.4f80426b.css",
-  "main.css.map": "static/css/main.4f80426b.css.map",
-  "main.js": "static/js/main.76ee2edd.js",
-  "main.js.map": "static/js/main.76ee2edd.js.map",
-  "static\\media\\blue-dinosaur.svg": "static/media/blue-dinosaur.3c64e970.svg"
+  "main.css": "/dinosaur-fact-react/static/css/main.def9db49.chunk.css",
+  "main.js": "/dinosaur-fact-react/static/js/main.d3792b9d.chunk.js",
+  "main.js.map": "/dinosaur-fact-react/static/js/main.d3792b9d.chunk.js.map",
+  "static/js/1.740cc6a0.chunk.js": "/dinosaur-fact-react/static/js/1.740cc6a0.chunk.js",
+  "static/js/1.740cc6a0.chunk.js.map": "/dinosaur-fact-react/static/js/1.740cc6a0.chunk.js.map",
+  "runtime~main.js": "/dinosaur-fact-react/static/js/runtime~main.cb1e79a0.js",
+  "runtime~main.js.map": "/dinosaur-fact-react/static/js/runtime~main.cb1e79a0.js.map",
+  "static/media/blue-dinosaur.svg": "/dinosaur-fact-react/static/media/blue-dinosaur.3c64e970.svg",
+  "static/css/main.def9db49.chunk.css.map": "/dinosaur-fact-react/static/css/main.def9db49.chunk.css.map",
+  "index.html": "/dinosaur-fact-react/index.html",
+  "precache-manifest.a3a65e13ad86972de73b0e050829d67b.js": "/dinosaur-fact-react/precache-manifest.a3a65e13ad86972de73b0e050829d67b.js",
+  "service-worker.js": "/dinosaur-fact-react/service-worker.js"
 }
