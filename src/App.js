@@ -18,7 +18,7 @@ class App extends Component {
       description: ""
     });
     axios
-      .get("https://dinosaur-facts-api.herokuapp.com/dinosaurs/random")
+      .get("https://dinosaur-facts-api.shultzlab.com/dinosaurs/random")
       .then(response => {
         if (response.status === 200 && response.statusText === "OK") {
           this.setState({
