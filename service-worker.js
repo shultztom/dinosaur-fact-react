@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dinosaur-fact-react/precache-manifest.a3a65e13ad86972de73b0e050829d67b.js"
+  "/dinosaur-fact-react/precache-manifest.adee90f61f87d2796397bbb97b47787d.js"
 );
 
 workbox.clientsClaim();
