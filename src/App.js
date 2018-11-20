@@ -20,7 +20,7 @@ class App extends Component {
     axios
       .get("https://dinosaur-facts-api.shultzlab.com/dinosaurs/random")
       .then(response => {
-        if (response.status === 200 && response.statusText === "OK") {
+        if (response.status === 200) {
           this.setState({
             name: response.data.Name,
             description: response.data.Description
@@ -34,6 +34,7 @@ class App extends Component {
         }
       })
       .catch(error => {
+        console.log(error);
         console.log("Error getting dinosaur :(");
         this.setState({ name: "Error getting dinosaur :(", description: null });
       });
