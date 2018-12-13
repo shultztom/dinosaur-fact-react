@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import logo from "./blue-dinosaur.svg";
 import "./App.css";
-import axios from "axios";
+import "./NewDinoButton";
+import NewDinoButton from "./NewDinoButton";
+require("es6-promise").polyfill();
+var axios = require("axios");
 
 class App extends Component {
   constructor() {
@@ -17,8 +20,12 @@ class App extends Component {
       name: "Loading...",
       description: ""
     });
+    const config = {
+      headers: { Pragma: "no-cache" },
+      params: { id: this.state.name }
+    };
     axios
-      .get("https://dinosaur-facts-api.shultzlab.com/dinosaurs/random")
+      .get("https://dinosaur-facts-api.shultzlab.com/dinosaurs/random", config)
       .then(response => {
         if (response.status === 200) {
           this.setState({
@@ -34,7 +41,6 @@ class App extends Component {
         }
       })
       .catch(error => {
-        console.log(error);
         console.log("Error getting dinosaur :(");
         this.setState({ name: "Error getting dinosaur :(", description: null });
       });
@@ -42,14 +48,6 @@ class App extends Component {
 
   componentDidMount() {
     this.fetchData();
-  }
-
-  NewDinoButton() {
-    return (
-      <button className="styledButton" onClick={() => this.fetchData()}>
-        New Dinosaur
-      </button>
-    );
   }
 
   render() {
@@ -66,7 +64,7 @@ class App extends Component {
           <div className="dinosaurDescription">
             <p>{this.state.description}</p>
           </div>
-          {this.NewDinoButton()}
+          <NewDinoButton fetchData={this.fetchData} />
         </div>
       </div>
     );
