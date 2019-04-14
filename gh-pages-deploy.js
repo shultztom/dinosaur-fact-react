@@ -6,7 +6,7 @@ ghpages.publish(
   "build",
   {
     repo: `https://${process.env.GH_TOKEN}@github.com/shultztom/${name}.git`,
-    silent: false
+    silent: true
   },
   function(err) {
     if (err) {
