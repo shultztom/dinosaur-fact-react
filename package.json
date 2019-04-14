@@ -17,7 +17,8 @@
     "eject": "react-scripts eject",
     "serveProd": "serve -s build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deployFromJenkins": "node gh-pages-deploy.js"
   },
   "browserslist": [
     ">0.2%",
