@@ -1,14 +1,16 @@
 {
-  "main.css": "/dinosaur-fact-react/static/css/main.da9971ab.chunk.css",
-  "main.js": "/dinosaur-fact-react/static/js/main.81fdd9e7.chunk.js",
-  "main.js.map": "/dinosaur-fact-react/static/js/main.81fdd9e7.chunk.js.map",
-  "runtime~main.js": "/dinosaur-fact-react/static/js/runtime~main.0d2432f5.js",
-  "runtime~main.js.map": "/dinosaur-fact-react/static/js/runtime~main.0d2432f5.js.map",
-  "static/js/2.b48fc803.chunk.js": "/dinosaur-fact-react/static/js/2.b48fc803.chunk.js",
-  "static/js/2.b48fc803.chunk.js.map": "/dinosaur-fact-react/static/js/2.b48fc803.chunk.js.map",
-  "index.html": "/dinosaur-fact-react/index.html",
-  "precache-manifest.ac8e96a2b2bb1323e7eb26510dc38d49.js": "/dinosaur-fact-react/precache-manifest.ac8e96a2b2bb1323e7eb26510dc38d49.js",
-  "service-worker.js": "/dinosaur-fact-react/service-worker.js",
-  "static/css/main.da9971ab.chunk.css.map": "/dinosaur-fact-react/static/css/main.da9971ab.chunk.css.map",
-  "static/media/blue-dinosaur.svg": "/dinosaur-fact-react/static/media/blue-dinosaur.f423445b.svg"
+  "files": {
+    "main.css": "/dinosaur-fact-react/static/css/main.23685240.chunk.css",
+    "main.js": "/dinosaur-fact-react/static/js/main.54f51a75.chunk.js",
+    "main.js.map": "/dinosaur-fact-react/static/js/main.54f51a75.chunk.js.map",
+    "runtime~main.js": "/dinosaur-fact-react/static/js/runtime~main.0d2432f5.js",
+    "runtime~main.js.map": "/dinosaur-fact-react/static/js/runtime~main.0d2432f5.js.map",
+    "static/js/2.b48fc803.chunk.js": "/dinosaur-fact-react/static/js/2.b48fc803.chunk.js",
+    "static/js/2.b48fc803.chunk.js.map": "/dinosaur-fact-react/static/js/2.b48fc803.chunk.js.map",
+    "index.html": "/dinosaur-fact-react/index.html",
+    "precache-manifest.2ef9c6a53423f3d55114802b0fb155fb.js": "/dinosaur-fact-react/precache-manifest.2ef9c6a53423f3d55114802b0fb155fb.js",
+    "service-worker.js": "/dinosaur-fact-react/service-worker.js",
+    "static/css/main.23685240.chunk.css.map": "/dinosaur-fact-react/static/css/main.23685240.chunk.css.map",
+    "static/media/blue-dinosaur.svg": "/dinosaur-fact-react/static/media/blue-dinosaur.f423445b.svg"
+  }
 }
