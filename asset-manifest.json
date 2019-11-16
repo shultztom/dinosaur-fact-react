@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/dinosaur-fact-react/static/css/main.23685240.chunk.css",
-    "main.js": "/dinosaur-fact-react/static/js/main.54f51a75.chunk.js",
-    "main.js.map": "/dinosaur-fact-react/static/js/main.54f51a75.chunk.js.map",
-    "runtime~main.js": "/dinosaur-fact-react/static/js/runtime~main.0d2432f5.js",
-    "runtime~main.js.map": "/dinosaur-fact-react/static/js/runtime~main.0d2432f5.js.map",
-    "static/js/2.b48fc803.chunk.js": "/dinosaur-fact-react/static/js/2.b48fc803.chunk.js",
-    "static/js/2.b48fc803.chunk.js.map": "/dinosaur-fact-react/static/js/2.b48fc803.chunk.js.map",
+    "main.js": "/dinosaur-fact-react/static/js/main.f616d9ca.chunk.js",
+    "main.js.map": "/dinosaur-fact-react/static/js/main.f616d9ca.chunk.js.map",
+    "runtime-main.js": "/dinosaur-fact-react/static/js/runtime-main.50f857d6.js",
+    "runtime-main.js.map": "/dinosaur-fact-react/static/js/runtime-main.50f857d6.js.map",
+    "static/js/2.4f56233f.chunk.js": "/dinosaur-fact-react/static/js/2.4f56233f.chunk.js",
+    "static/js/2.4f56233f.chunk.js.map": "/dinosaur-fact-react/static/js/2.4f56233f.chunk.js.map",
     "index.html": "/dinosaur-fact-react/index.html",
-    "precache-manifest.2ef9c6a53423f3d55114802b0fb155fb.js": "/dinosaur-fact-react/precache-manifest.2ef9c6a53423f3d55114802b0fb155fb.js",
+    "precache-manifest.41d0e6492b6925820dabb563ae9c875f.js": "/dinosaur-fact-react/precache-manifest.41d0e6492b6925820dabb563ae9c875f.js",
     "service-worker.js": "/dinosaur-fact-react/service-worker.js",
     "static/css/main.23685240.chunk.css.map": "/dinosaur-fact-react/static/css/main.23685240.chunk.css.map",
     "static/media/blue-dinosaur.svg": "/dinosaur-fact-react/static/media/blue-dinosaur.f423445b.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50f857d6.js",
+    "static/js/2.4f56233f.chunk.js",
+    "static/css/main.23685240.chunk.css",
+    "static/js/main.f616d9ca.chunk.js"
+  ]
 }
